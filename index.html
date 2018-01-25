@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Otto-automaatit kartalla</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="css/style.css">
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="js/kartta_js.js"></script>
+
+
+    </head>
+    
+    <body>
+        <div id="wrapper">
+        <h1>Otto-automaatit kartalla</h1> 
+        <a id="linkki" class="btn btn-primary" href="haku.html">Haku</a>
+        <button id="nappinayta" class="btn btn-primary">Koordinaatit päälle</button>
+        <button id="nappipois" class="btn btn-primary">Koordinaatit pois</button>
+        </div>
+        <div id="sisalto">
+        <div id="kentta"></div>
+        
+        <div id="kartta"></div> <!--kartta divi johon kartta tulee-->
+
+        </div>
+        <div id="footer"><h4></h4></div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap">
+    </script>	
+    
+    </body>
+    
+</html>

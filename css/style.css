@@ -1,0 +1,95 @@
+html, body { 
+    
+        height: 100%;
+        margin: 0; 
+        padding: 0;
+        background-color: #99ff99;
+		}
+h1 {
+                    
+        text-align: center;
+                    
+                }
+#linkki {
+                    
+        display:block;
+        text-align:center;    
+                }
+                
+#nappinayta{
+        margin-top: 5px;            
+        display:block;
+        text-align:center;
+        width:100%;
+                }      
+                
+#nappipois {
+        margin-top: 5px;            
+        display:block;
+        text-align:center;
+        width:100%;
+                }
+
+                         
+#wrapper {
+            
+        margin: 0 auto;
+        width: 100%;      
+        background-color: #99ff99;
+        height: 180px;   
+                }  
+                
+                
+#sisalto {
+    
+        width: 100%;
+        margin: 0 auto;
+                    
+                }
+#kartta { 
+        height: 650px;
+        width: 100%;
+          
+		}
+
+.hakupalkki {
+        margin-top: 10px;
+        border: 1px solid transparent;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 32px;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      }
+
+#haku {
+        background-color: #fff;
+        font-family: sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        margin-right: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 300px;
+      }
+
+#haku:focus {
+        border-color: #9999ff;
+      }
+      
+#footer {
+        margin: 0 auto;
+        width: 100%;      
+        background-color: #99ff99;
+        height: 70px;
+        text-align:center;
+        margin-top: 50px;
+      }
+
+      
+
+
+
+
+
